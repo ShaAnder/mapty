@@ -84,6 +84,3 @@ This Project Is MIT Licensed
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="120%">
 
 
-This project was a great example of OOP using apis and other tools to create a working app.
-
-## Version History
