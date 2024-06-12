@@ -1,55 +1,88 @@
-# BANKIST
 
-## Table Of Contents
+<p  align="center">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="120%">
+    
+<h1  align="center">Mapty</h1>
 
-    - [Introduction](#introduction)
-        - [Why This?](#why-this?)
+<p  align="center">
+<img src="https://github.com/ShaAnder/mapty/assets/129494996/72c7870a-f66a-4d0d-8f54-8fd8ee8a26ef" alt="project image">
+    
+<p align="center">
+  <img src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="" target="_blank">
+    <img alt="Demo" src="https://img.shields.io/badge/demo-online-green.svg" />
+  </a>
+  <a href="https://github.com/ShaAnder/mapty#readme" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/ShaAnder/mapty/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg" />
+  </a>
+  <a href="https://github.com/ShaAnder/mapty/blob/main/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
 
-    - [Project Brief](#project-brief)
-        - [In Depth Description](#in-depth-description)
-        - [Working Rundown](#how-it-works)
 
-    - [Learning Points & Takeaway](#learning-points-&-takeaway)
+<h2 class="header2">Description</h2>
+<p class="text-content">
+Mid level JS project designed to showcase mid level concepts. The application is a small workout tracker, that allows the user to save completed workouts on a map. Very minimalistic, but I have a plan to return to this project in the future
 
-    - [Version History](#version-history)
+<h2>Prerequisites</h2>
 
-    - [Misc](#misc)
+<h4>Languages Used</h4>
+- JavaScript<br>
+- CSS3<br>
+- HTML5<br>
 
-## Introduction
+<h4>API</h4>
 
-This is my fourth major Javascript project from the Javascript complete course by Jonas Scmedtmann, this time showcasing use of APIS, refactoring and OOP. Originally found on [Udemy, The Javascript Complete Course by Jonas Scmedtmann](https://www.udemy.com/course/the-complete-javascript-course/), the project is a workout tracking map app.
+<h4>Packages</h4>
 
-### Why This?
+<h2>Installation</h2>
 
-As part of the course this was a project presented to us to solidify our skills with OOP, while mostly follow along learners are kind of expected to try and solve elements of the code themselves as required.
+First clone this repo
 
-## Project Brief
+```sh
+git clone
+```
+NPM install to get the dependancies
 
-### In Depth Description
+```sh
+npm install (or pip install)
+```
+Use npm start to start the local server / test the app
 
-On the indepth side this project utilizes OOP, the geolocation api, leaflet and open street map to create a map that the user can track their workouts on, users can add a workout, input the details and have it saved on the website for future viewing thanks to the browsers local storage.
+```sh
+npm start or press run
+```
 
-### Working Breakdown
+</div>
 
-This is the largest application to date and has a lot of moving parts, as well as this i took the initiative to take the refactoring to a whole new level and learn how to import and export files to compartmentalize classes and code even more.
+<h2>Contributing</h2>
 
-At it's core it has two major classes the app class, which contains all the core application properties and methods for the code to work and the workout class which contains the majority of all workout related properites and methods. The workout class also extends to two child classes each with their own unique attributes for each exercise.
+Got any issues or see any problems with the code? Check here:<br>
+[Issue Tracker](github.com/project/issues)
 
-We use importing and exporting to get our application and workouts to work together with the main link being workout -> app -> script.js
+</div>
 
-#### FUNCTIONALITY
+<h2>License</h2>
 
-The app has several working parts and things that it can do:
+This Project Is MIT Licensed
 
-- It utilizes geolocation api to track the users exact coords at the start, enabling the map to start where your location is currently set to.
+<h2>Credits</h2>
+- Originally A follow along from the complete js Course by Jonas Schmedtmann
 
-- From there users can click on the map to open a form in the side bar, this form will then allow the user to save a workouts details into an object and append that object to an array. This array is used to display the previous workouts in a list on the sidebar.
 
-- when the form is submitted a marker with details is placed on the map for the user to see where their workout was. The user can then click on the marker to show or hide the popup and click on the workouts in the workout bar to navigate to the relevant workout.
+<h2>Contact</h2>
 
-- As well as this thanks to local storage we can save and load workouts on each browser
+[LinkedIn](https://www.linkedin.com/in/shaun-anderton-551670a9/)<br>
+[Twitter](https://twitter.com/ShaAnder10)<br>
+[Github](https://github.com/ShaAnder)
 
-## Learning Points & Takeaway
+<p  align="center">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="120%">
+
 
 This project was a great example of OOP using apis and other tools to create a working app.
 
